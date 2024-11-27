@@ -1,0 +1,213 @@
+*{
+  padding: 0;
+  margin: 0;
+ font-family: "Poppins", seri
+ font-style:normal;
+ font-weight: 700;
+}
+
+a{ text-decoration: none}
+.body{
+  background-image: url("signin.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.outer{
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background-color: #364653;
+}
+.inner{
+  height: 45vh;
+  width: 100%;
+ 
+  border-radius: 30px 30px 0px  0px ;
+  background-color: #FFFFFF;
+  display: flex;
+  position: absolute;
+justify-content: center;
+  bottom: 0;
+}
+.contant{
+  height: auto;
+  width: 80%;
+  margin-top: 30px;
+  
+}
+#signHeading{
+  
+}
+#SignPara{
+  margin-top: 30px;
+  width: 200px;
+  color:#80818C;
+}
+.SignBtn{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.signbtn{
+  padding: 10px 45px 10px 45px;
+  font-weight: bold;
+  border: 1px solid #364653;
+  color: #364653;
+  border-radius: 5px;
+}
+.signbtn a{
+  color: #364653;
+  text-decoration: none;
+}
+.signbtn a:hover{
+  color: #fff;
+}
+
+.signbtn:hover{
+  border: 1px solid #364653;
+  color: #fff;
+  background-color: #364653;
+}
+
+/* sign in page CSS*/
+
+.innerSignin {
+  height: 60vh;
+  width: 100%;
+
+  border-radius: 30px 30px 0px 0px;
+  background-color: #FFFFFF;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  bottom: 0;
+}
+
+.contantSin{
+  margin: 20px 0 0 20px;
+  width:100%;
+  
+}
+.signinput{
+  height:45px;
+  width: 310px;
+  background-color: #899BAA;
+  color :white;
+  border:none;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.signpara{
+  margin-top: 20px;
+  font-size: 10px;
+}
+.signupbtn{
+  padding: 10px 40px 10px 40px;
+    color: #fff;
+    margin-top: 20px;
+    width: 320px;
+    background-color: #364653;
+    border:none;
+    border-radius: 5px;
+}
+
+.signupP{
+  text-align: center;
+  font-size: 15px;
+  color:#6A7986;
+  margin: 10px;
+}
+/* catagory page CSS */
+
+.Cheading{
+  margin: 70px 0px 20px 20px;
+  width: 300px;
+}
+.outerC{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px 0px 0px 20px;
+  padding: 20px;
+  border: 2px solid gray;
+  height: 200px;
+  width: 300px;
+  
+}
+.cetagory{
+  padding: 5px 20px 5px 20px;
+  border: 1px solid #364653;
+  border-radius: 50px;
+  margin: 3px;
+  color:#364653;
+  background: transparent;
+}
+.cetagory:hover{
+  color:#fff;
+  background-color: #364653;
+}
+ .Cbtn{
+   margin-top: 300px;
+ }
+ .Cbtna{
+   display: flex;
+   justify-content: center;
+ }
+
+/*home page css*/
+.outerH{
+  height:auto;
+  width: 90vw;
+  margin: 20px;
+ 
+}
+
+nav{ 
+  margin: 5px 0px 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.profile{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-image: url("me.png");
+  background-size: cover;
+}
+
+nav p{
+  width: 60px;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.Searchinput{
+  width: 95%;
+  height: 35px;
+  padding-left: 10px;
+  border: none;
+ border-radius: 5px;
+ background-color: #C9CAD3;
+ color: #5C4591;
+}
+.popular-books{
+  margin-top: 20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular-books h1{
+  
+  font-weight:500;
+  font-size: 20px;
+}
+
+.popular-books a{
+  font-weight:500;
+  font-size: 10px;
+}
+
